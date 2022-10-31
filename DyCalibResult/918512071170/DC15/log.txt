@@ -1,0 +1,22 @@
+
+Result folder: DyCalibResult/918512071170/DC15
+Serial number: 918512071170
+Device name: Intel RealSense D435I
+Device PID: 0B3A
+FW version: 05.13.00.50
+Calibration Type: Targeted
+Laser Power: Off
+RGB: Yes
+Auto Exposure: On
+IR setpoint: 1000, (min: 0, max: 4095, default: 1000)
+RGB brightness: 0, (min: -64, max: 64, default: 0)
+AE SetPoint: Auto
+Streamming Resolution: 1280x720 at 30(fps)
+initialize dynamic calibration parameters ...
+Start Initialize device ...
+Start rectification ...
+Start scale calibration
+Error (3101): calibration has been cancelled due to timeout! 
+If you prefer, try longer timeout in seconds using the -o option on the command line or the advanced settings in GUI.
+It's likely the device is severely shifted and hard for dynamic calibrator to recover. 
+Please try latest technician calibration tool.
