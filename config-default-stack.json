@@ -1,0 +1,16 @@
+{
+    "name": "Realsense bag file",
+    "path_dataset": "stack/[folder_no]/",
+    "path_intrinsic": "stack/[folder_no]/camera_intrinsic.json",
+    "max_depth": 3.0,
+    "voxel_size": 0.05,
+    "max_depth_diff": 0.07,
+    "preference_loop_closure_odometry": 0.1,
+    "preference_loop_closure_registration": 5.0,
+    "tsdf_cubic_size": 3.0,
+    "icp_method": "color",
+    "global_registration": "ransac",
+    "python_multi_threading": true,
+    "debug_mode": false
+
+}

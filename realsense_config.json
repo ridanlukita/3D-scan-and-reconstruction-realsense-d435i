@@ -1,0 +1,10 @@
+{
+    "serial": "918512071170",
+    "color_format": "RS2_FORMAT_RGB8",
+    "depth_format": "RS2_FORMAT_Z16",
+    "color_resolution": "848,480",
+    "depth_resolution": "848,480",
+    "color_fps": "30",
+    "depth_fps": "30",
+    "visual_preset": "RS2_RS400_VISUAL_PRESET_HIGH_ACCURACY"
+ }

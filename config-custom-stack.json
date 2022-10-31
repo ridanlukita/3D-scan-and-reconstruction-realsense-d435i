@@ -1,0 +1,19 @@
+{
+    "name": "Realsense RGBD file",
+    "path_root": "stack/",
+    "path_dataset": "stack/[folder_no]/dataset/",
+    "path_intrinsic": "stack/[folder_no]/dataset/camera_intrinsic.json",
+    "max_depth": 3.0,
+    "voxel_size": 0.01,
+    "max_depth_diff": 0.03,
+    "preference_loop_closure_odometry": 0.1,
+    "preference_loop_closure_registration": 5.0,
+    "tsdf_cubic_size": 2.0,
+    "sdf_trunc": 0.01,
+    "icp_method": "color",
+    "global_registration": "ransac",
+    "python_multi_threading": true,
+    "device":"cuda:0",
+    "debug_mode": false,
+    "min_depth": 0
+}
